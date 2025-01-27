@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icone-angulaire-bleu.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/output.css">
+    <title>Contact</title>
+</head>
+
+<body class="dark:bg-gray-700 dark:text-white">
+    <header>
+        <nav class="dark:bg-gray-800">
+            <div class="container flex flex-wrap justify-between p-5 m-auto">
+                <div class="logo text-2xl font-bold uppercase">
+                    <h2>Tailwind</h2>
+                </div>
+                <div class="nav-list">
+                    <ul class="flex flex-wrap justify-between w-52 font-bold mt-2">
+                        <li class="hover:text-sky-400 duration-200"><a href="index.html">Home</a></li>
+                        <li class="hover:text-sky-400 duration-200"><a href="about.html">About</a></li>
+                        <li class="hover:text-sky-400 duration-200"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <button id="dark-btn" class="bg-black text-white p-2 rounded-4xl border-2 border-white 
+                hover:bg-white hover:text-black hover:border-black duration-500 dark:bg-white dark:text-black">
+                <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <header class="text-center my-10">
+            <h2 class="text-4xl font-bold p-3">Contact Us</h2>
+            <p>We'd love to hear from you! Fill out the form below and we'll get back to you as soon as possible.</p>
+        </header>
+
+        <form action="" class="flex flex-col items-center lg:w-1/2 p-8 mx-10 lg:m-auto rounded-2xl bg-white text-black shadow-2xl">
+            <div class="input flex flex-col w-full my-3">
+                <label for="uName">Your Name</label>
+                <input type="text" id="uName" placeholder="Enter Your Name" class="border border-gray-400 focus:outline-sky-400 rounded-md py-1.5 px-3">
+            </div>
+            <div class="input flex flex-col w-full my-3">
+                <label for="uMail">Email Address</label>
+                <input type="email" id="uMail" placeholder="Enter Your Email" class="border border-gray-400 focus:outline-sky-400 rounded-md py-1.5 px-3">
+            </div>
+            <div class="input flex flex-col w-full my-3">
+                <label for="message">Your Message</label>
+                <textarea name="" id="message" placeholder="Enter Your Message here..." class="border border-gray-400 focus:outline-sky-400 rounded-md py-1.5 px-3 h-32"></textarea>
+            </div>
+            <button class="bg-sky-800 w-fit p-2 rounded-lg my-3 text-white hover:scale-[1.03] hover:bg-sky-400 duration-200">Send Message</button>
+        </form>
+    </main>
+
+    <footer class="bg-gray-800 flex flex-wrap justify-between p-12 mt-10">
+        <div>
+            <img src="images/asset 18.png" alt="app store">
+        </div>
+        <div class="social flex flex-wrap items-center gap-3 text-white">
+            <i class="fa-brands fa-facebook cursor-pointer"></i>
+            <i class="fa-brands fa-twitter cursor-pointer"></i>
+            <i class="fa-brands fa-linkedin cursor-pointer"></i>
+            <i class="fa-brands fa-youtube cursor-pointer"></i>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
